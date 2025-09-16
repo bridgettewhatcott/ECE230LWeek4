@@ -27,5 +27,5 @@ This must occur inside the table (which is the reason for the specific order), a
 The names are like this because sum entails OR and product entails AND. WHen we say sum of products, we are ORing the ANDs together(Ex. (A&B)|(~A&C)). When we say products of sums, we are ANDing the ORs together(Ex. (A|B)&(~A|C)). 
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-The only situation in which an XOR table outputs a 0 is when A and B are the same value. An output of 1 implies that the light is turning on, so we can double check that all the times that A and B are equal are resulting in an LED does not turn on (because it's output 0), but that it does turn on when A and B are opposite numbers. 
+The only situation in which an XOR table outputs a 0 is when A and B are the same value. 
 
